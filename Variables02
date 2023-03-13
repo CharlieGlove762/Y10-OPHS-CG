@@ -1,0 +1,27 @@
+#Variables02
+
+name1 = "Charlie"
+name2 = "George"
+name3 = "Filip"
+name4 = "Regan"
+name5 = "Joel"
+
+print(name1)
+print(name2)
+print(name3)
+print(name4)
+print(name5)
+
+Town1 = "South Norwood"
+Town2 = "Shrublands"
+Town3 = "Peckham"
+Town4 = "Lewisham"
+Town5 = "Croydon"
+
+print ("")
+
+print(Town1)
+print(Town2)
+print(Town3)
+print(Town4)
+print(Town5)
