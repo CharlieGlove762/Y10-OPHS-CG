@@ -1,0 +1,6 @@
+baby = input("Has the baby been born yet? Y or N")
+
+if baby == ("Y"):
+  print ("Congratulations!!!")
+else:
+  print("Call us when you have news! :)")
