@@ -1,0 +1,13 @@
+Weather = str(input("Is it Raining? y or n:"))
+
+ 
+if Weather == ("y") :
+  wind = input("Is it windy? y or n")
+  if wind == ("y"):
+   print("Its too windy for an unbrella!")
+  else :
+   print ("Take an Unbrella")
+ 
+  
+if Weather != ("y"):
+  print ("Enjoy your day!")
