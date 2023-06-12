@@ -1,0 +1,11 @@
+num1 = int(input("Enter a number:"))
+
+total = num1
+
+character = "y"
+
+while character == "y":
+  num2 = int(input("Enter a number:"))
+  total = num1 + num2
+  character = str(input("Want to add another number insert y!"))
+print (total)
