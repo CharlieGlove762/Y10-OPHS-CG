@@ -1,0 +1,10 @@
+invite = "y"
+count = 0
+
+while invite == "y":
+  
+  name = str(input("who would you like to invite to the party?"))
+  count = count + 1
+  invite = str(input("Would you like to inite someone else y or n?"))
+
+print ("You invited",count,"people!")
