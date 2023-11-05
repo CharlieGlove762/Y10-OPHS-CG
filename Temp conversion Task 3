@@ -1,0 +1,33 @@
+# -------------------------
+# Subprograms
+# -------------------------
+
+degree = float(input("Input the temperature you like to convert?"))
+i_convention = (input("Input the temperature unit you like to convert?"))
+whatchangeto = (input("Input the temperature you want to convert to?"))
+# -------------------------
+# Main program
+# -------------------------
+
+if whatchangeto == "F" and i_convention.upper() == "C":
+    result = float(round((9 * degree) / 5 + 32))
+    o_convention = "Fahrenheit"
+elif whatchangeto == "C" and i_convention.upper() == "F":
+    result = float(round((degree - 32) * 5 / 9))
+    o_convention = "Celsius"
+elif  whatchangeto == "K" and i_convention.upper() == "C":
+    result = float((degree + 273.15))
+    o_convention = "kelvin"
+elif  whatchangeto == "C" and i_convention.upper() == "K":
+    result = float(((degree - 272.15)))
+    o_convention = "Celsius"
+elif  whatchangeto == "F" and i_convention.upper() == "K":
+    result = float(((degree - 273.15) * 9/5) + 32)
+    o_convention = "kelvin"
+elif  whatchangeto == "K" and i_convention.upper() == "F":
+    result = float(((degree - 32) / 1.79999999) + 273.15)
+    o_convention = "Celsius"
+else:
+    print("Input proper convention.")
+    quit()
+print("The temperature in", o_convention, "is", result, "degrees.")
