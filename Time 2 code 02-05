@@ -1,0 +1,12 @@
+# HTTP status codes program
+
+HTTP_type = int(input("Enter the HTTP status:"))
+
+if HTTP_type == 400 :
+  print ("Bad request")
+elif HTTP_type == 401 | 403 :
+  print ("Authentication Error")
+elif HTTP_type == 404 :
+  print ("Not Found")
+else :
+  print ("Unknown error") 
