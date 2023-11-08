@@ -1,0 +1,10 @@
+# States of water
+
+Substance = float(input("Whats the temperature of the water:"))
+    
+if Substance <= 0:
+  print("The water is in a solid state.")
+elif 0 < Substance < 100 :
+    print("The water is in a liquid state.")
+elif Substance >= 100:
+    print("The water is in a gaseous state.")
