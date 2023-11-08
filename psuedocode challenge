@@ -1,0 +1,8 @@
+No1=int(input("Enter a number:"))
+No2=int(input("Enter a number:"))
+
+number1 = (No1+No2)
+number2 = (No2*No2)
+
+print ("The numbers added together is",number1)
+print ("The numbers multiplied together is",number2)
